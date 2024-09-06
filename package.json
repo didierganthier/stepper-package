@@ -1,6 +1,6 @@
 {
   "name": "stepper-package",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React js form stepper | React and tailwind",
   "main": "dist/index.js",
   "scripts": {

@@ -15,7 +15,7 @@ A customizable Stepper component built with React and styled using Tailwind CSS.
 To install the package, run:
 
 ```bash
-npm install your-package-name
+npm install stepper-package
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ Here’s an example of how to use the Stepper component in your project:
 
 ```jsx
 import React, { useState } from "react";
-import Stepper from "your-package-name";
+import Stepper from "stepper-package";
 
 const App = () => {
   const [currentStep, setCurrentStep] = useState(0);
