@@ -1,0 +1,35 @@
+{
+  "name": "stepper-package",
+  "version": "1.0.1",
+  "description": "React js form stepper | React and tailwind",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:css": "npx tailwindcss -i ./src/styles/tailwind.css -o ./dist/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/didierganthier/stepper-package.git"
+  },
+  "publishConfig": {
+    "@didierganthier:registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [],
+  "author": "Didier Peran Ganthier",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "tailwindcss": "^3.4.10"
+  },
+  "devDependencies": {
+    "@types/prop-types": "^15.7.12",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.4"
+  }
+}
