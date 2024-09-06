@@ -1,6 +1,6 @@
 {
   "name": "stepper-package",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React js form stepper | React and tailwind",
   "main": "dist/index.js",
   "scripts": {
@@ -14,7 +14,12 @@
   "publishConfig": {
     "@didierganthier:registry": "https://npm.pkg.github.com"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "tailwind",
+    "form",
+    "stepper"
+  ],
   "author": "Didier Peran Ganthier",
   "license": "ISC",
   "dependencies": {
